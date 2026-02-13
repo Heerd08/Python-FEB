@@ -1,3 +1,16 @@
+# problem statement
+# you are given list of strings with mixed casing and spaces.
+# Normalize them(lowercase &trimed)and return only string 
+# length >- 5
+
+# input 
+# words = ["  Python ", " AI ", "Machine ", " Data "]
+
+
+# output 
+# ["python","machine"]
+
+
 def normalize_words(words):
     result = []
     
